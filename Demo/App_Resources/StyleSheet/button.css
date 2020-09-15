@@ -1,0 +1,246 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.button A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.button A IMG
+{
+border:0px;
+}
+.button :active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.button :visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.button :hover {
+	color: #FF0000;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style: normal;
+}
+.button {
+	float:left;	margin-left:2px; text-align:center;	height:23px;
+	width:90px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(../images/large_btn.jpg);
+	font-size:12px;
+	color:#000000;
+}
+.smallbutton A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.smallbutton A IMG
+{
+border:0px;
+}
+.smallbutton :active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.smallbutton :visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.smallbutton :hover {
+	color: #FF0000;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style: normal;
+}
+.smallbutton {
+	float:left;
+	margin-left:2px;
+	text-align:center;
+	width:59px;
+	height:23px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(../images/small_btn.jpg);
+	font-size:12px;
+	color:#000000;
+}
+.mediumbutton A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.mediumbutton A IMG
+{
+border:0px;
+}
+.mediumbutton :active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.mediumbutton :visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.mediumbutton :hover {
+	color: #FF0000;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style: normal;
+}
+.mediumbutton {
+	float:left;
+	margin-left:2px;
+	text-align:center;
+	width:70px;
+	height:23px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(../images/med_btn.jpg);
+	font-size:12px;
+	color:#000000;
+}
+.maillabel A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillabel A IMG
+{
+border:0px;
+}
+.maillabel :active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillabel :visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillabel :hover {
+	color: #FF0000;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style: normal;
+}
+.maillabel {
+	border-color:#dddddd;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	float:left;
+	width:70px;
+	vertical-align:top;
+	margin-left:2px;
+	padding-top:1px;
+	padding-bottom:2px;
+	height:20px;
+	text-align:right;
+	font-weight:bold;
+	background-image:url(../images/btn.jpg)
+}
+.mailtextborder {
+	border-color:#dddddd;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	float:left;
+	width:585px;
+	vertical-align:top;
+	margin-left:5px;
+	padding-top:1px;
+	padding-bottom:2px;
+	height:20px;
+}
+.mailtextarea {
+	border-color:#dddddd;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	float:left;
+	width:675px;
+	vertical-align:top;
+	margin-left:3px;
+	padding-bottom:2px;
+	height:245px;
+	overflow:auto;
+}
+.mailborder
+{
+	float:left;
+	width:335px;
+	border-color:#dddddd;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:2px;
+}
+.mailtext{
+	border-color:#dddddd;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	float:left;
+	width:570px;
+	vertical-align:top;
+	margin-left:1px;
+	padding-top:1px;
+	padding-bottom:2px;
+	height:18px;
+}
+.mailmargin
+{
+	float:left;
+	width:670px;
+	margin-left:2px;
+	margin-top:1px;
+	padding-bottom:1px;
+	padding-top:1px;
+	border:thin;
+}
+.mailinnerborder
+{
+	float:left;
+	width:98%;
+	border-color:#dddddd;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	margin-left:2px;
+}
+.maillink A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillink A IMG
+{
+border:0px;
+}
+.maillink :active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillink :visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.maillink :hover {
+	color: #FF0000;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style: normal;
+}
+.maillink {
+	margin-left:0px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+.messageheader {
+	float:left;
+	width:490px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#3162a6;
+	font-weight:bold;
+}
+.messagetimestamp {
+	float:left;
+	width:200px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	font-weight:bold;
+}
+.messagetextarea {
+	border-color:#dddddd;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	float:left;
+	width:678px;
+	vertical-align:top;
+	margin-left:3px;
+	padding-bottom:2px;
+	height:375px;
+	overflow:auto;
+}

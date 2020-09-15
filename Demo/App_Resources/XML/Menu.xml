@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MenuList>
+  <Menu display="Product Type Master" url="GroupMaster.aspx" qstr="?Type=Product%20Type"  admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Regional HQ" url="RegHQ.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Area HQ" url="AreaHQ.aspx" admin="yes" vsr="no" asm="no" rsm="yes" super="yes" />
+  <Menu display="Station" url="Station.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Employee Master" url="Emp.aspx" admin="yes" vsr="no" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Employee List" url="EmpList.aspx" admin="yes" vsr="no" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Party Master" url="Party.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Party List" url="PartyList.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Product Master" url="Product.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Product List" url="ProductList.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Route Master" url="Route.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Route List" url="RouteList.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Holiday Master" url="Holiday.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Monthly Tour Planner" url="MTP.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Print MTP" url="Reports/MTPList.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Visiting Station Party" url="VisitStationParty.aspx" admin="no" vsr="no" asm="no" rsm="no" super="yes" />
+  <!--<Menu display="Appointment" url="Appointment.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Appointment List" url="AppointmentList.aspx" admin="yes" vsr="no" asm="no" rsm="no" supe-->r="yes" />
+  <Menu display="Update DA Rate" url="DARate.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Visit" url="Visit.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Visit List" url="VisitList.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="TA Bill" url="TABill.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Company Details" url="Company.aspx" admin="yes" vsr="no" asm="no" rsm="no" super="yes" />
+  <Menu display="Change Password" url="ChangePwd.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+
+  <!--<Menu display="Ajax Testing" url="atest.aspx" admin="yes" vsr="yes" asm="yes" rsm="yes" super="yes" />
+  <Menu display="Monthly Tour Planner1" url="MTP1.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="Visit1" url="Visit1.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />
+  <Menu display="TA Bill1" url="TABill1.aspx" admin="no" vsr="yes" asm="no" rsm="no" super="yes" />-->
+</MenuList>

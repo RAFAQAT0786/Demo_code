@@ -1,0 +1,561 @@
+﻿.gridheader {background-image:url(../images/data_bg.jpg);}
+.inputbox {border: 1px solid #7f9db9; Height:15px; margin-bottom:3px; width:180PX;font-size: 12px; font-family: Verdana; }
+.ajaxbox {border: 1px solid white; Height:15px; width:180PX;font-size: 12px; color:Red; font-family: Verdana; }
+.inputbox1 {border: 1px solid #7f9db9; margin-bottom:3px; width:185px;font-size: 12px; font-family: Verdana; }
+.num {border: 1px solid #7f9db9; Height:15px; margin-bottom:3px; width:120PX;font-size: 12px; font-family: Verdana; text-align:right;}
+.link { text-align:right; }
+.lbl {font-size: 12px; font-family: Verdana; width:250px; }
+#main{width:1000;float:left;}
+#header{width:95%;float:left;padding:5px;}
+#headerl{width:25%;float:left;COLOR: #003399}
+#headerr{width:75%;float:left;text-align:right;}
+#middle{width:95%;float:left;padding:5px;height:550px;}
+.menu{width:15%;float:left;padding:4px;border:solid 1px grey;}
+#option{padding:2px;background-image:url('App_Resources/images/arrow.gif');}
+#content{width:82%;float:right;vertical-align:top;border:solid 1px grey;}
+#footer{width:100%;height:100%;float:left;font-size: 11px; }
+#footerl{width:48%;float:left;margin-left:5px;}
+#footerr{width:50%;float:right;}
+.note    { font-size:12px; font-weight:bold; padding:5px; color:Blue }
+.ErrMsg {float:left;	width:140px;margin-left:10px;margin-top:15px;margin-right:5px;	
+    margin-bottom:5px;	height:25px;color:Red;font-size:12px;}
+.Heading { color:Maroon;font-size:14px;font-weight:bold;height:50px; }
+.PTitle  { color:Maroon;font-size:14px;font-weight:bold;height:50px;width:70%; }
+.tbl { border:0px;width:450px; }
+.validator{color:Red;font-size:9px;}
+.vmsg{color:Red;font-size:9px;text-align:right;}
+.menu A{COLOR: #003399; TEXT-DECORATION: none; }
+A img { border:none; }
+
+.pager span { color:red;font-weight:bold;  }
+h1 { font-size:15px; margin:0px;}
+h2 { color:#c81a36;	font-size:12px;}
+h3 { font-size:12px; font-weight:normal; margin-top:2px; margin-bottom:17px; }
+body { background-image:url(../images/bg_main_login.jpg); padding:0px;	margin:0px;	font-size:9pt;	font-family:Tahoma, Verdana, Arial, sans-serif;	line-height:20px;	color: #333333;}
+body a{	color: #333333;}
+a:link {text-decoration: none;	color: #333333;}
+a:visited {	text-decoration: none;	color: #333333;}
+a:hover {	text-decoration: underline;	color: #39f;}
+a:active {	text-decoration: none;	color: #333333;}
+#container{	padding-right:0px;margin-top:0px;padding-left:0px;padding-bottom:0px;margin-left:auto;width:1000px;margin-right:auto;padding-top:0px;height:100%;
+	background-color:#FFFFFF;	background-image:url(../images/bg_shade.jpg)}
+.spacing{	margin-left:20px;	margin-right:20px;}
+.header {	width:1000px;	float:left;}
+.middle{	width:100%;	float:left;	background-image:url(../images/bg_main_login.jpg);	position:relative;	height:624px;}
+.copyright{	width:300px;		color:#ffffff;	margin-top:55px;	float:left;	padding-bottom:5px;	padding-left:70px;	font-size:11px;}
+.powered{ width:370px;	color:#ffffff;	margin-top:55px; margin-right:5px;	float:right;	padding-bottom:5px;	padding-left:30px;	font-size:11px;}
+.powered:a{	color: #ffffff;}
+.powered a:link {	text-decoration: none;	color: #ffffff;}
+.powered a:visited {	text-decoration: none;	color: #ffffff;}
+.powered a:hover {	text-decoration: underline;	color: #FFFF00;}
+.powered a:active {	text-decoration: none;	color: #ffffff;}
+#footer{padding-left:20px;	padding-top:10px;	background-color:#4f4f4f;	color:#FFFFFF;	float:left;	width:980px;}
+.toplink{	color:#333333;	font-size:12px;}
+.toplink:a{	color: #333333;}
+.toplink a:link {	text-decoration: none;	color: #333333;}
+.toplink a:visited {	text-decoration: none;	color: #333333;}
+.toplink a:hover {	text-decoration: underline;	color: #0099FF;}
+.toplink a:active {	text-decoration: none;	color: #333333;}
+.logintop{float:left;width:505px;margin-left:350px;margin-right:5px;margin-top:100px;height:62px;border-color:#0099FF;border-top:solid 1px;
+	border-left:solid 1px;	border-right:solid 1px;	background-image:url(../images/login-header.png);}
+.logintoptext {	float:left;	width:400px;	margin-left:70px;	margin-top:10px;	margin-right:5px;	margin-bottom:5px;	height:45px;	color: #FFFFFF;	font-size:17px;	font-family:Arial, verdana, Helvetica, sans-serif;}
+.loginmiddle {	float:left;	width:505px;	margin-left:350px;	margin-right:5px;	height:182px;	border-color:#0099FF;	border-bottom:solid 1px;	border-left:solid 1px;	border-right:solid 1px;	background-color:#F4F4F4;}
+.loginmiddletext{float:left;width:480px;margin-left:10px;margin-top:5px;margin-right:5px;margin-bottom:5px;height:45px;color: #333333;font-size:13px;}
+.logintext{	float:left;	width:100px; margin-left:50px;	margin-top:5px;	margin-right:5px;	margin-bottom:5px;	height:25px;	color: #333333;	font-size:13px;}
+.logincontrol{float:left; width:280px; margin-left:10px;margin-top:5px;margin-right:5px;margin-bottom:5px;height:25px;color: #333333;	font-size:12px;}
+.forgettext{float:left;	width:140px;	margin-left:10px;	margin-top:15px;	margin-right:5px;	margin-bottom:5px;	height:25px;color: #333333;font-size:12px;}
+.Login 
+{
+	float:right;
+	width:91px;
+	margin-left:200px;
+	margin-top:15px;
+	margin-right:75px;
+	margin-bottom:5px;
+	height:25px;
+	color:#333333;
+	font-size:12px;
+	background-image:url(../images/btn_bg.gif);
+	text-align:center;
+}
+.Login a:hover {
+	text-decoration: none;
+	height:22px;
+	background-image:url(../images/btn_bg_revert.gif);
+}
+.loginfooter {
+
+	float:left;
+	width:505px;
+	margin-left:350px;
+	margin-right:5px;
+	height:62px;
+	border-color:#0099FF;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	background-image:url(../images/footer_bg.jpg);
+}
+.frameheader {
+	float:left;
+	width:100%;
+	height:50px;
+	border-color:#0099FF;
+	background-image:url(../images/top_bg.gif);
+}
+
+.frameheaderleft {
+	float:left;
+	width:440px;
+	height:50px;
+	margin-left:1px;
+	border-color:#0099FF;
+	background-image:url(../images/top_bg.gif);
+}
+.frameheaderright {
+	float:right;
+	width:300px;
+	height:50px;
+	margin-left:1px;
+	border-color:#0099FF;
+	background-image:url(../images/top_bg.gif);
+}
+.frameheadermiddle {
+	float:right;
+	width:200px;
+	height:50px;
+	margin-left:20px;
+	border-color:#0099FF;
+	background-image:url(../images/top_bg.gif);
+}
+.frameheaderlefttext {
+	float:left;
+	width:305px;
+	margin-left:5px;
+	margin-top:2px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color: #FFFFFF;
+	font-size:12px;
+	font-family:Arial, verdana, Helvetica, sans-serif;
+}
+.frameheaderrighttext {
+	float:right;
+	width:165px;
+	margin-left:5px;
+	margin-top:2px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color: #FFFFFF;
+	font-size:12px;
+	font-family:Arial, verdana, Helvetica, sans-serif;
+}
+.frameWelcometext {
+	float:right;
+	width:200px;
+	margin-left:8px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color: #FFFFFF;
+	font-size:12px;
+	font-family:Arial, verdana, Helvetica, sans-serif;
+}
+.frameLogouttext {
+	float:left;
+	width:105px;
+	margin-left:1px;
+	margin-right:10px;
+	margin-bottom:1px;
+	text-align:left;
+	height:20px;
+	color: #FFFFFF;
+	font-size:12px;
+	font-family:Arial, verdana, Helvetica, sans-serif;
+}
+.frameLogouttext:a{color: #FFFFFF;}
+.frameLogouttext a:link {text-decoration: none;	color: #FFFFFF;}
+.frameLogouttext a:visited {text-decoration: none;color: #FFFFFF;}
+.frameLogouttext a:hover {text-decoration: none;color: #FFFFFF;}
+.frameLogouttext a:active {text-decoration: none;color: #FFFFFF;}
+.frameLogouticon {
+	float:left;
+	width:18px;
+	margin-left:15px;
+	margin-top:2px;
+	margin-right:3px;
+	margin-bottom:1px;
+	text-align:left;
+	height:20px;
+}
+.frameTransLogo {
+	float:right;
+	width:115px;
+	margin-left:inherit;
+	margin-right:5px;
+	margin-top:5px;
+	height:38px;
+	border-color:#0099FF;
+	background-image:url(../images/trans_logo.png);
+}
+.frameOEMLogo {
+	float:left;
+	width:115px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	height:38px;
+	border-color:#0099FF;
+}
+.frameMenuBorder {
+	float:left;
+	width:21%;
+	height:540px;
+	margin-left:1px;background-image:url(../images/bg_main_login.jpg);
+}
+.frameMenuHeadertext {
+	float:left;
+	width:205px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:5px;
+	margin-bottom:1px;
+	text-align:left;
+	height:20px;
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+.frameMenutext {
+	color: #000000;
+}
+.frameMenutext:a{color: #000000;}
+.frameMenutext a:link {text-decoration: none;	color: #000000;}
+.frameMenutext a:visited {text-decoration: none;color: #000000;}
+.frameMenutext a:hover {text-decoration: none;color: #FFFFFF;}
+.frameMenutext a:active {text-decoration: none;color: #000000;}
+
+/* Footer Area */
+.footertext 
+{
+	float:left;
+	width:490px;
+	margin-left:10px;
+	margin-top:35px;
+	margin-right:5px;
+	margin-bottom:5px;
+	height:25px;
+	color:#ffffff;
+	font-size:11px;
+	text-align:right;
+}
+.footertext:a{color: #FFFFFF;}
+.footertext a:link {text-decoration: none;	color: #FFFFFF;}
+.footertext a:visited {text-decoration: none;color: #FFFFFF;}
+.footertext a:hover {text-decoration: none;color: #00FFCC;}
+.footertext a:active {text-decoration: none;color: #FFFFFF;}
+.framePowered {
+	float:left;
+	width:225px;
+	margin-left:2px;
+	margin-right:1px;
+	margin-top:270px;
+	margin-bottom:5px;
+	text-align:left;
+	height:60px;
+	color: #000000;
+	font-size:12px;
+}
+.framePowered:a{color: #FFFFFF;}
+
+.framePowered a:link {text-decoration: none;color: #FFFFFF;}
+.framePowered a:visited {text-decoration: none;color: #FFFFFF;}
+.framePowered a:hover {text-decoration: none;color: #00FFCC;}
+.framePowered a:active {text-decoration: none;color: #FFFFFF;}
+
+/* Middle Area */
+.Middleheader {
+	float:left;
+	margin-top:1px;
+	width:78.9%;
+	height:57px;
+	border-color:#0099FF;
+	background-image:url(../images/middle_header.jpg);
+}
+.Middleheadertext {
+	float:left;
+	width:78%;
+	margin-left:8px;
+	margin-top:5px;
+	margin-right:5px;
+	height:20px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleWelcometext {
+	float:left;
+	width:100%;
+	margin-left:8px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:25px;
+	color:#003399;
+	font-size:21px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleUserName {
+	color:#666666;
+	font-size:21px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleForm {
+	float:left;
+	width:650px;
+	margin-top:1px;
+	height:25px;
+}
+.MiddleFormLabel {
+	float:left;
+	width:160px;
+	margin-left:15px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color:#000000;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormControl {
+	float:left;
+	margin-left:1px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color:Black;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormTextBox {
+	float:left;
+	width:100px;
+	height:15px;
+	color:Black;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormComboBox {
+	float:left;
+	width:306px;
+	height:25px;
+	color:Black;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleTextArea {
+	float:left;
+	width:100%;
+	margin-top:3px;
+	height:60px;
+}
+.MiddleFormTextArea {
+	float:left;
+	width:300px;
+	height:45px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormError {
+	float:left;
+	width:100px;
+	margin-left:1px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormLabelRequired {
+	float:left;
+	width:150px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:1px;
+	height:20px;
+	color:#FF0000;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormButtonControl {
+	float:left;
+	width:81%;
+	margin-top:5px;
+	margin-right:5px;
+	margin-left:88px;
+	margin-bottom:1px;
+	height:30px;
+	color:black;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleFormButton {
+	float:left;
+	width:100px;
+	height:28px;
+	margin-left:20px;
+	border-color :black;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.certificateborder
+{
+	float:left;
+	width:99%;
+	border-color:#dddddd;
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	margin-left:2px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:2px;
+}
+.certificatemargin
+{
+	float:left;
+	width:98%;
+	margin-left:2px;
+	margin-top:2px;
+	padding-bottom:2px;
+	padding-top:2px;
+	border:thin;
+}
+.thumbnailpic
+{
+	float:left;
+	width:50px;
+	margin-left:1px;
+	height:50px;
+	border-color:#dddddd;border-top:solid 1px;border-bottom:solid 1px;border-left:solid 1px;border-right:solid 1px;
+	padding-bottom:2px;padding-top:3px;padding-left:3px;padding-right:3px;
+}
+.certificatetext
+{
+	float:left;
+	width:90%;
+	vertical-align:top;
+	margin-left:10px;
+	padding-top:1px;
+	padding-bottom:2px;
+	height:60px;
+}
+/* Certificate Form */
+
+.CertificateForm {
+	float:left;
+	width:580px;
+	margin-top:5px;
+	height:400px;
+	margin-left:1px;
+}
+.CertificateTextBox {
+	float:left;
+	width:130px;
+	height:15px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.CertificateComboBox {
+	float:left;
+	margin-left:1px;
+	width:136px;
+	height:25px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.CertificateTextArea {
+	float:left;
+	width:428px;
+	margin-top:1px;
+	margin-left:1px;
+	height:47px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.CertificateFormLabel {
+	float:left;
+	width:150px;
+	margin-left:12px;
+	margin-right:3px;
+	margin-bottom:1px;
+	height:20px;
+	color:#000000;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.CertificateFormControl {
+	float:left;
+	width:130px;
+	margin-left:1px;
+	margin-top:2px;
+	margin-right:3px;
+	margin-bottom:1px;
+	height:20px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.certificatepic {
+	float:left;
+	width:180px;
+	margin-left:3px;
+	margin-top:5px;
+	height:180px;
+	border-color:#dddddd;border-top:solid 1px;border-bottom:solid 1px;border-left:solid 1px;border-right:solid 1px;
+	padding-bottom:2px;padding-top:3px;padding-left:3px;padding-right:3px;
+}
+.CertificateButtonControl {
+	float:Right;
+	width:330px;
+	margin-left:1px;
+	margin-top:5px;
+	margin-right:70px;
+	margin-bottom:1px;
+	height:30px;
+	color:#666666;
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.MiddleBrowseControl {float:left;width:300px;margin-left:1px;margin-top:5px;margin-right:5px;margin-bottom:1px;height:20px;color:#666666;font-size:12px;font-family:Geneva, Arial, Helvetica, sans-serif;}
+.MiddleBrowseButton{width:70px;height:22px;color:#666666;font-size:12px;font-family:Geneva, Arial, Helvetica, sans-serif;}
+
+/* Data Listing */
+.DataCheckBox{float:left;width:20px;margin-left:15px;margin-top:1px;margin-right:1px;margin-bottom:1px;height:20px;font-size:12px;font-family:Geneva, Arial, Helvetica, sans-serif;background-image:url(../images/list_buttons_bg.gif));}
+.DataDivider {float:left;width:1px;margin-left:5px;margin-right:1px;height:22px;background-image:url(../images/data_bg_divider.jpg);}
+.DataLabel{float:left;width:25%;margin-left:15px;margin-top:1px;margin-right:1px;margin-bottom:1px;height:20px;font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;background-image:url(../images/list_buttons_bg.gif));
+}
+.DataheaderBg{float:left;width:100%;height:47px;border-color:#0099FF;}
+.DataheaderControl{float:left;margin-left:15px;margin-top:8px;margin-right:1px;margin-bottom:1px;width:33px;height:33px;border-color:#0099FF;}
+.DataheaderControlText{float:left;margin-left:5px;margin-top:12px;margin-right:1px;margin-bottom:1px;width:175px;height:23px;border-color:#0099FF;}
+.Dataheader{float:left;width:100px;height:22px;border-color:#0099FF;background-image:url(../images/data_bg.jpg);}
+.Data {float:left;width:100px;height:22px;border-bottom-color:#FF0000;border-color:#0099FF;}
+.DataActionLabel{float:left;width:4%;margin-left:5px;height:20px;font-size:12px;font-family:Geneva, Arial, Helvetica, sans-serif;}
+.DataBorder{float:left;width:100%;height:1px;background-image:url(../images/group-header-bg.gif);}
+.SearchText {float:left;width:170px;height:18px;margin-left:5px;color:#000000;font-size:12px;font-weight:bold;
+	font-family:Geneva, Arial, Helvetica, sans-serif;}

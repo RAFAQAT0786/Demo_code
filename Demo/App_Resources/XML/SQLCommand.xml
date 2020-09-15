@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ATQueries>
+  <Query id="GETUSER" desc="Query to fetch USER">
+    <Statement type="procedure">getuser</Statement>
+    <Parameters>
+      <Parameter sequence="1" type="string" control="txtuser" direction="input">usr_login</Parameter>
+    </Parameters>
+  </Query>
+ <Query id="ATTENDANCEREGISTER" desc="procedure to MARK WEEKENDS AND OTHER HOLIDAYS IN EMP_ATTENDANCE">
+    <Statement type="procedure">at_apiattendanceregister.createattendanceregister</Statement>
+    <Parameters>
+      <Parameter sequence="1" type="string" direction="input">p_month</Parameter>
+      <Parameter sequence="2" type="string" direction="input">p_employeeslist</Parameter>
+    </Parameters>
+  </Query>
+  <Query id="ADVPOST_ADD" desc="Procedure to insert values in AT_INT_SCHEDULE">
+    <Statement type="procedure">at_apiadvertisementpost.insertadvpost</Statement>
+    <Parameters>
+      <Parameter sequence="1" type="string" direction="input">p_pkid</Parameter>
+      <Parameter sequence="2" type="refcursor" direction="output">p_row</Parameter>
+    </Parameters>
+  </Query>
+</ATQueries>
