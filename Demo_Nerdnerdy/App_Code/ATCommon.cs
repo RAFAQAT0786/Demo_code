@@ -152,29 +152,44 @@ public class ATCommon
     //    }
     //}
 
-    public static void SendMail(String pTo, String pSub, String pBody, ATApp pApp)
-    {
-        String username = "AKIAYCEXCDCDFHRY7LN6";  // Replace with your SMTP username.
-        String password = "BOHlGYpfhZKn1c/UuNhfATPa94ZAScmF7cB1awM1VohQ";  // Replace with your SMTP password.
-        String host = "email-smtp.ap-south-1.amazonaws.com";
-        int port = 25;
-        SmtpClient smtp = new SmtpClient();
-        smtp.UseDefaultCredentials = false;
+    //public static void SendMail(String pTo, String pSub, String pBody, ATApp pApp)
+    //{
+    //    String username = "AKIAYCEXCDCDFHRY7LN6";  // Replace with your SMTP username.
+    //    String password = "BOHlGYpfhZKn1c/UuNhfATPa94ZAScmF7cB1awM1VohQ";  // Replace with your SMTP password.
+    //    //String host = "email-smtp.ap-south-1.amazonaws.com";
+    //    String host = "relay-hosting.secureserver.net";
+    //    int port = 25;
+    //    SmtpClient smtp = new SmtpClient();
+    //    smtp.UseDefaultCredentials = false;
         
 
-        using (var client = new System.Net.Mail.SmtpClient(host, port))
-        {
-            client.Credentials = new System.Net.NetworkCredential(username, password);
-            client.EnableSsl = false;
+    //    using (var client = new System.Net.Mail.SmtpClient(host, port))
+    //    {
+    //        client.Credentials = new System.Net.NetworkCredential(username, password);
+    //        client.EnableSsl = false;
 
-            client.Send
-            (
-                      "info@nerdnerdy.in",  // Replace with the sender address.
-                      pTo,    // Replace with the recipient address.
-                      pSub,
-                      pBody
-            );
-        }
+    //        client.Send
+    //        (
+    //                  "info@nerdnerdy.in",  // Replace with the sender address.
+    //                  pTo,    // Replace with the recipient address.
+    //                  pSub,
+    //                  pBody
+    //        );
+    //    }
+    //}
+    public static void SendMail(String pTo, String pSub, String pBody, ATApp pApp)
+    {
+        MailMessage msg = new MailMessage();
+
+        msg.From = new MailAddress("info@nerdnerdy.in");
+        msg.To.Add(new MailAddress(pTo));
+
+        msg.Subject = pSub;
+        msg.Body = pBody;
+
+        SmtpClient client = new SmtpClient();
+
+        client.Send(msg);
     }
 //public static void SendMail(String pTo, String pSub, String pBody, ATApp pApp)
 //{
