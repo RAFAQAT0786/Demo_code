@@ -1,0 +1,12 @@
+﻿.textbox {
+    max-height: 100px;
+    max-width: 888px ;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+    .textbox {
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+}

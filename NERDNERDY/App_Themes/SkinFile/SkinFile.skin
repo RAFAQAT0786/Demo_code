@@ -1,0 +1,83 @@
+﻿<%--
+Named control skin. The SkinId should be unique because duplicate SkinId's per control type are not allowed in the same theme.
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White">
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+Default skin. The SkinId is not defined. Only one default skin per control type is allowed in the same theme.
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+<asp:DropDownList Width="200px" Height="18" style="border: Groove Gray 1px;font-family: Verdana;font-size: 11px;" runat="server" />
+--%>
+<asp:LinkButton skinid="lnkDelete" runat="server" />
+
+<asp:TextBox cssClass="inputbox" runat="server" />
+<asp:TextBox onKeyPress="alphanum();" onBlur="validatealphanum(this);" skinid="alphnum" cssClass="inputbox" runat="server" />
+<asp:TextBox onblur="this.value=this.value.toUpperCase();" skinid="ucase" cssClass="inputbox" runat="server" />
+<asp:TextBox onblur="this.value=this.value.toLowerCase();" skinid="lcase" cssClass="inputbox" runat="server" />
+<asp:TextBox onblur="this.value=this.value.toProperCase();" skinid="pcase" cssClass="inputbox" runat="server" />
+<asp:TextBox onblur="this.value=this.value.toUpperCase();" skinid="ltext" style="width:300px;" cssClass="MiddleFormTextBox" runat="server" />
+<asp:TextBox skinid="atext" style="width:300px;" cssClass="MiddleFormTextBox" runat="server" />
+<asp:TextBox skinid="etext" style="width:300px;" cssClass="MiddleFormTextBox" runat="server" />
+<asp:TextBox skinid="vtext" style="width:182px;height:18px;" runat="server" />
+<asp:TextBox skinid="Vehtext" style="width:130px;height:18px;" runat="server" />
+<asp:TextBox skinid="textarea" style="width:400px;height:40px;"  cssClass="MiddleFormTextArea" runat="server" />
+<asp:TextBox skinid="ajax" style="width:220px;" cssClass="ajaxbox" runat="server" />
+
+<asp:TextBox skinid="num" onKeyPress="onlyint();" oncopy="return false" onpaste="return false" oncut="return false" cssClass="num" runat="server" />
+<asp:TextBox skinid="numc" onKeyPress="onlyint();" onBlur="validateint(this);" Text="0" oncopy="return false" onpaste="return false" oncut="return false" cssClass="num" runat="server" />
+<asp:TextBox skinid="dec" Text="0.00" onKeyPress="onlydecimal();" onBlur="validatedecimal(this);" oncopy="return false" onpaste="return false" oncut="return false" cssClass="num" runat="server" />
+
+<asp:Label style="text-align:right;padding-right:10px;" cssClass="lbl" runat="server" />
+<asp:Label style="padding:3px;" CssClass="PTitle" skinid="title" runat="server" />
+<asp:Label style="font-weight:bold;padding:0px;" skinid="msg" runat="server" />
+<asp:Label style="padding:1px;font-size:13px" skinid="company" runat="server" />
+
+<asp:DropDownList cssClass="MiddleFormComboBox" runat="server" />
+<asp:DropDownList skinid="rptddl" cssClass="ReportComboBox" runat="server" />
+<asp:DropDownList skinid="ddll" cssClass="inputbox" style="width:414px;" runat="server" />
+<asp:ListBox cssClass="inputbox" style="width:207px;" runat="server" />
+
+<asp:Button style="border:#dddddd 1px solid;background-image: url(App_Resources/images/btn.jpg);margin-bottom:5px;margin-left:5px;padding-left:5px;padding-right:5px;padding-top:3px;padding-bottom:3px;font-size:12px;font-family:Verdana;" runat="server" />
+<asp:Button skinid="n" runat="server" />
+<asp:RequiredFieldValidator ErrorMessage="*"  runat="server" />
+<asp:RegularExpressionValidator ErrorMessage="Invalid EMail ID"  runat="server" />
+<asp:RangeValidator cssClass="validator" runat="server" />
+<asp:CompareValidator ErrorMessage="Invalid" runat="server" />
+<asp:CompareValidator skinid="ajaxcompare" ErrorMessage="" runat="server" />
+
+<asp:GridView AutoGenerateColumns="false" Width="100%" AllowPaging="True" runat="server">
+<RowStyle BackColor="White" Font-Bold="False" />
+<PagerStyle CssClass="pager" BackColor="GradientInactiveCaption" ForeColor="Black" HorizontalAlign="Center" />
+<HeaderStyle CssClass="gridheader" Font-Bold="True" ForeColor="Black" />
+<AlternatingRowStyle BackColor="#F7F6F3" />
+</asp:GridView>
+
+<asp:GridView skinid="report" AutoGenerateColumns="false" PageSize="20" Width="100%" AllowPaging="True" runat="server">
+<RowStyle BackColor="White" Font-Bold="False" />
+<PagerStyle CssClass="pager" BackColor="GradientInactiveCaption" ForeColor="Black" HorizontalAlign="Center" />
+<HeaderStyle CssClass="gridheader" Font-Bold="True" ForeColor="Black" />
+<AlternatingRowStyle BackColor="#F7F6F3" />
+</asp:GridView>
+
+<asp:GridView skinid="disp" AutoGenerateColumns="false" Width="100%" PageSize="20" AllowPaging="True" runat="server">
+<RowStyle BackColor="White" Font-Bold="False" />
+<PagerStyle CssClass="pager" BackColor="GradientInactiveCaption" ForeColor="Black" HorizontalAlign="Center" />
+<HeaderStyle BackColor="LightBlue" Font-Bold="True" ForeColor="Black" borderColor="White" borderStyle="Solid" />
+<AlternatingRowStyle BackColor="#F7F6F3" />
+</asp:GridView>
+
+<asp:GridView skinid="update" AutoGenerateColumns="false" Width="100%" runat="server">
+<RowStyle BackColor="White" Font-Bold="False" />
+<PagerStyle CssClass="pager" BackColor="GradientInactiveCaption" ForeColor="Black" HorizontalAlign="Center" />
+<HeaderStyle BackColor="LightBlue" Font-Bold="True" ForeColor="Black" borderColor="White" borderStyle="Solid" />
+<AlternatingRowStyle BackColor="#F7F6F3" />
+</asp:GridView>
+
+<asp:GridView skinid="nopaging" AutoGenerateColumns="false" Width="100%" runat="server">
+<RowStyle BackColor="White" Font-Bold="False" />
+<PagerStyle CssClass="pager" BackColor="GradientInactiveCaption" ForeColor="Black" HorizontalAlign="Center" />
+<HeaderStyle BackColor="LightBlue" Font-Bold="True" ForeColor="Black" borderColor="White" borderStyle="Solid" />
+<AlternatingRowStyle BackColor="#F7F6F3" />
+</asp:GridView>
+
+<asp:HyperLink cssClass="link" runat="server" />

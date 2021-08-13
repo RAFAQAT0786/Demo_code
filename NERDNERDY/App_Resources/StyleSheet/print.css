@@ -1,0 +1,4 @@
+﻿.print { font: 10px Arial}
+.rptfield {border: 1px solid white; width:300px; min-width:300px; font-size: 10px; font-weight:bold; text-decoration:underline;}
+.box {border: 1px solid black; padding:10px 0px 0px 15px;}
+h1 {font: 13px Arial; text-align:center;}

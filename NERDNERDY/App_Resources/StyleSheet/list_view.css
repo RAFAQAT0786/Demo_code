@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.view {float:left;width:102%;
+padding-bottom:10px;margin-top:10px;margin-bottom:5px;
+}
+.view_parentlist{float:left;width:100%;padding-bottom:10px;margin-top:10px;margin-bottom:5px; height:17px;
+}
+.viewborder{float:left; width:98%;
+    border-top:solid 1px;
+    border-left-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+}
+
+.viewtext {float:left;vertical-align:top;margin-left:5px;padding-top:1px;padding-bottom:2px;height:20px;
+}
+
+.viewtextextn {float:left;width:50px;vertical-align:top;margin-left:12px;padding-top:1px;padding-bottom:2px;height:20px;}
+
+.exceptiontext {float:left;width:70px;vertical-align:top;margin-left:5px;padding-top:1px;padding-bottom:2px;height:20px;}
+
+.viewtextDOB { float:left;width:190px;vertical-align:top;margin-left:5px;padding-top:1px;padding-bottom:2px;height:43px;}
+
+.viewtextAddress { float:left;width:190px;vertical-align:top;margin-left:5px;padding-top:1px;padding-bottom:2px;height:53px;}
+
+.viewlist {float:left;width:620px;padding-left:5px;padding-bottom:10px;margin-top:5px;}
+
+.viewpic{ float:left;width:82px;height:82px;background-image:url(../images/logo_bg.jpg);
+padding-bottom:2px;padding-top:3px;padding-left:3px;padding-right:3px;}
+.viewpicInfo{ float:left;width:80px;height:80px;border-color:#dddddd;border-top:solid 1px;border-bottom:solid 1px;border-left:solid 1px;border-right:solid 1px;
+padding-bottom:2px;padding-top:3px;padding-left:3px;padding-right:3px;}
+
+.viewsignature { float:right;width:180px;height:50px;margin-left:100px;border-color:#dddddd;border-top:solid 1px;border-bottom:solid 1px;border-left:solid 1px;
+border-right:solid 1px;padding-bottom:2px;padding-top:3px;padding-left:3px;padding-right:3px;}
+
+.viewmargin{ border-style: none;
+	border-color: inherit;
+	border-width: thin;
+	float:left;width:587px;
+	height:auto;
+	margin-left:2px;	margin-top:1px;
+}
+.viewmargin_Info{ border-style: none;
+	border-color: inherit;
+	border-width: thin;
+	float:left;width:501px;
+	height:28px;
+	margin-left:0px;
+margin-top:1px;
+}
+.viewmargin_InfoLeft{ border-style: none;
+	border-color: inherit;
+	border-width: thin;
+	float:left;width:481px;
+	height:26px;
+	margin-left:5px;
+margin-top:1px;
+}
+
+.viewmargin_InfoLeftM{ border-style: none;
+	border-color: inherit;
+	border-width: thin;
+	float:left;width:481px;
+	height:26px;
+	margin-left:93px;
+margin-top:1px;
+}
+.viewtoptextmargin {float:left;width:520px;
+font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#3162a6;font-weight:bold;margin-left:5px;
+}
+
+.viewtoplefttext {float:left;width:116px;
+font-family:Arial, Helvetica, sans-serif;font-size:13px;text-align:left;color:#3162a6;font-weight:bold;margin-left:2px;
+padding-top:2px;padding-bottom:2px;height:20px;
+}
+
+.viewtextname {float:left;width:157px;
+font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#3162a6;font-weight:bold;margin-left:10px;padding-top:2px;
+padding-bottom:2px;height:20px;
+}
+.viewerror
+{
+	float:right; width:3px;
+}
+.viewtoprighttext {float:left;width:379px;
+font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#3162a6;font-weight:bold;margin-left:10px;padding-top:2px;
+padding-bottom:2px;height:20px;
+}
+
+.viewmiddleborder {float:left;width:680px;margin-left:1px;margin-right:5px;margin-top:2px;}
+
+.viewmiddle {
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	width: 625px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-bottom:5px;
+	height: 191px;
+	height:auto;
+	background-image:url(../images/middle_bg.jpg);
+}
+
+.viewinnermiddle { float:left;width:700px;height:100%;margin-top:5px;}
+
+.viewmiddlesmalltext {float:left;width:325px;font-family:"Century Gothic";font-size:18px;color:#3162a6;font-weight:bold;}
+
+.viewmiddlesmallhead {float:left;width:615px;height:22px;padding-left:10px;padding-top:5px;padding-bottom:5px;background-image:url(../images/grey_line.jpg);
+}
+.savebtn{float:right;width:153px;
+height:25px;margin-left:5px;padding-bottom:2px;padding-top:3px;padding-left:0px;padding-right:12px;
+}
+
+.parentlisttext{float:left;width:461px;
+vertical-align:top;margin-left:10px;padding-top:1px;padding-bottom:2px;height:auto;
+}
+
+.viewlabeltext {float:left;width:138px;vertical-align:top;margin-left:2px;padding-top:1px;padding-bottom:2px;height:20px;text-align:right;font-weight:bold;}
+
+.campustext {float:left;width:365px;
+font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#3162a6;font-weight:bold;margin-left:10px;padding-top:2px;
+padding-bottom:2px;height:20px;
+}

@@ -1,0 +1,48 @@
+/***
+Email  Page
+***/
+.mail- ul {
+  padding:0px;
+  margin: 0px;
+  list-style:none;
+}
+
+.mail- li {
+  margin:0 5px;
+  cursor:pointer;
+  list-style:none;
+  border:solid 2px #fff;
+}
+
+.mail- li:hover {
+  border:solid 2px #aaa;
+}
+
+.mail- li a{
+  display:block;
+  padding:25px;
+}
+
+.mail- li a:hover {
+	text-decoration: none;
+}
+
+.mail- li.color-black {
+  background:#1f1f1f;
+}
+
+.mail- li.color-darkblue {
+  background:#1570a6;
+}
+
+.mail- li.color-lightblue {
+  background:#4aabf9;
+}
+
+.mail- li.color-red {
+  background:#eb4d41;
+}
+
+.mail- li.color-green {
+  background:#28b779;
+}
